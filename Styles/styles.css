@@ -94,10 +94,12 @@ nav ul {
     display: flex;
     margin: 0 190px;
     justify-content: space-between;
+    
 }
 
 .banner-content{
     padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -125,3 +127,46 @@ nav ul {
 .banner-description{
     margin: 28px 0px ;
 }
+
+
+
+
+/* habits section styles */
+.habit-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.habit-section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.habit-description{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom: 60px;
+
+}
+
+.habit-image{
+    width: 100%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 4px solid rgba(255, 255, 255, 0.10);
+
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.habit-content{
+text-align: center;
+}
+
